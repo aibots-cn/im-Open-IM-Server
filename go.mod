@@ -3,7 +3,6 @@ module Open_IM
 go 1.15
 
 require (
-	cloud.google.com/go/firestore v1.6.1 // indirect
 	firebase.google.com/go v3.13.0+incompatible
 	github.com/Shopify/sarama v1.32.0
 	github.com/alibabacloud-go/darabonba-openapi v0.1.11
@@ -25,7 +24,7 @@ require (
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang-jwt/jwt/v4 v4.4.2
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.3
 	github.com/gorilla/websocket v1.4.2
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0
 	github.com/jinzhu/copier v0.3.4
@@ -42,7 +41,7 @@ require (
 	github.com/rifflock/lfshook v0.0.0-20180920164130-b9218ef580f5
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/sirupsen/logrus v1.8.1
-	github.com/stretchr/testify v1.7.2
+	github.com/stretchr/testify v1.8.3
 	github.com/swaggo/files v0.0.0-20220610200504-28940afbdbfe
 	github.com/swaggo/gin-swagger v1.5.0
 	github.com/swaggo/swag v1.8.3
@@ -56,13 +55,11 @@ require (
 	go.uber.org/multierr v1.7.0 // indirect
 	go.uber.org/zap v1.19.1 // indirect
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
-	golang.org/x/image v0.0.0-20211028202545-6944b10bf410
-	golang.org/x/net v0.0.0-20220622184535-263ec571b305
-	golang.org/x/sys v0.0.0-20220622161953-175b2fd9d664 // indirect
-	golang.org/x/tools v0.1.11 // indirect
-	google.golang.org/api v0.59.0
-	google.golang.org/grpc v1.45.0
-	google.golang.org/protobuf v1.28.1
+	golang.org/x/image v0.0.0-20220302094943-723b81ca9867
+	golang.org/x/net v0.9.0
+	google.golang.org/api v0.114.0
+	google.golang.org/grpc v1.56.3
+	google.golang.org/protobuf v1.30.0
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/gomail.v2 v2.0.0-20160411212932-81ebce5c23df
 	gopkg.in/ini.v1 v1.66.2 // indirect
